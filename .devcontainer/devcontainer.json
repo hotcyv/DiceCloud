@@ -1,8 +1,4 @@
 {
   "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
-  "features": {
-    "ghcr.io/devcontainers-contrib/features/meteor-cli:1": {
-      "version": "latest"
-    }
-  }
+  "build": { "dockerfile": "Dockerfile" }
 }
